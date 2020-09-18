@@ -105,6 +105,9 @@ p{
     margin-top: 2vh;
     height: 30vh;
 }
+#minhafoto{
+    border-radius: 30px;
+}
 #divCText:hover{
     background-color: rgb(94, 95, 143,1);
     transition: background-color 0.3s ease-in-out;
