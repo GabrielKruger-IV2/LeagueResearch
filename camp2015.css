@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+}
+.body{
+    background-image: url("https://images.wallpapersden.com/image/download/vi-4k-league-of-legends_72688_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabecalho {
+    width: 100%;
+    background-color: rgb(94, 95, 143);
+    display: flex;
+    top: 0;
+    margin-top: 0vh;
+    position: fixed;
+    height: 8vh;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.divLogo {
+    float: left;
+    margin-left: 1vw;
+}
+.menu {
+
+    margin-right: 1vw;
+}
+.conteudo {
+    margin-top: 13vh;
+    margin-bottom: 4vh;
+    
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    margin-right: 1vw;
+    display: flex;
+    margin-top: 1.5vh;
+}
+#body{
+    background-color: rgb(188, 188, 221);
+}
+.menu ul  a{
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    font-size: 1.25em;
+    margin-right: 2vw;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#secCamp{
+    background-color: rgb(94, 95, 143,0.9);
+    border: 0.1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+    padding: 10px;
+}
+#secCamp:hover{
+    background-color: rgb(94, 95, 143,1);
+
+}
+p{
+    text-align: justify;
+}
+#secJoga{
+    background-color: rgb(94, 95, 143,0.9);
+    border: 0.1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3vh;
+    padding: 10px;
+}
+#secJoga:hover{
+    background-color: rgb(94, 95, 143,1);
+
+}
+button{
+    font-size: 1em;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    width: 8vw;
+    height: 5vh;
+    color: yellow;
+    border-radius: 10px;
+    background-color:rgba(60, 61, 92, 1);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}

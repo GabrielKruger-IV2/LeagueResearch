@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+}
+.body{
+    background-image: url("https://images6.alphacoders.com/385/385517.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabecalho {
+    width: 100%;
+    background-color: rgb(94, 95, 143);
+    display: flex;
+    top: 0;
+    margin-top: 0vh;
+    position: fixed;
+    height: 8vh;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.divLogo {
+    float: left;
+    margin-left: 1vw;
+}
+.menu {
+
+    margin-right: 1vw;
+}
+.conteudo {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    margin-right: 1vw;
+    display: flex;
+    margin-top: 1.5vh;
+}
+
+.menu ul  a{
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    font-size: 1.25em;
+    margin-right: 2vw;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#divSelect{
+    background-color: rgb(94, 95, 143,0.9);
+    border: 0.1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 20vw;
+    text-align: center;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    margin-top: 2vh;
+    padding: 10px;
+}
+#divSelect:hover{
+    background-color: rgb(94, 95, 143,1);
+    transition: background-color 0.3s ease-in-out;
+}
+.divPrincipal{
+    text-align: center;
+
+}
+#divGeral{
+    display: flex;
+    width: 98vw;
+    margin-top: 2vh;
+}
+#divNome{
+    background-color: rgb(94, 95, 143,0.9);
+    border: 0.1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 34vw;
+    text-align: center;
+    margin-left: 33vw;
+    margin-right: 33vw;
+    margin-top: 2vh;
+    padding: 2px;
+
+}
+#divNome:hover{
+    background-color: rgb(94, 95, 143,1);
+    transition: background-color 0.3s ease-in-out;
+}
+#divLore{
+    background-color: rgb(94, 95, 143,0.9);
+    border: 0.1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+    padding: 2px;
+}
+#divLore:hover{
+    background-color: rgb(94, 95, 143,1);
+    transition: background-color 0.3s ease-in-out;
+}
+#divImgs{
+    display: flex;
+}
+#divInfStatus{
+    width: 30vw;
+    background-color: rgb(94, 95, 143,0.9);
+    border: 0.1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    padding: 2px;
+   height: 70vh;
+}
+#divInfStatus:hover{
+
+    background-color: rgb(94, 95, 143,1);
+
+}
+#divInfo{
+
+}
+#divSkin{
+    width: 30vw;
+
+    background-color: rgb(94, 95, 143,0.9);
+    border: 0.1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    padding: 2px;
+    height: 75vh;
+}
+#divSkin:hover{
+
+
+    background-color: rgb(94, 95, 143,1);
+
+}
+#divSkill{
+    width: 30vw;
+    background-color: rgb(94, 95, 143,0.9);
+    border: 0.1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 2vh;
+    padding: 2px;
+    height: 60vh;
+}
+#divSkill:hover{
+
+    background-color: rgb(94, 95, 143,1);
+
+}
+button{
+    padding: 0;
+    background-color: black;
+    margin-left: 6px;
+    border-radius: 10px;
+    width: 5vw;
+    height: 11.5vh;
+}
+.btnLados{
+    background-color: rgb(76, 77, 117);
+    width: 4vw;
+    height: 4vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+}
+

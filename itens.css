@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+}
+#body{
+    background-position: center;
+    background-image: url("https://media.alienwarearena.com/media/maxresdefault-_e.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cabecalho {
+    width: 100%;
+    background-color: rgb(94, 95, 143);
+    display: flex;
+    top: 0;
+    margin-top: 0vh;
+    position: fixed;
+    height: 8vh;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.divLogo {
+    float: left;
+    margin-left: 1vw;
+}
+.menu {
+
+    margin-right: 1vw;
+}
+.conteudo {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+}
+
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    margin-right: 1vw;
+    display: flex;
+    margin-top: 1.5vh;
+}
+
+.menu ul  a{
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    font-size: 1.25em;
+    margin-right: 2vw;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#divConteudo{
+    text-align: center;
+    align-items: center;
+}
+#divItens{
+    margin-left: 5vw;
+    width: 40vw;
+    height: 75vh;
+    margin-right: 5vw;
+    overflow: auto;
+    background-color: rgb(94, 95, 143,0.3);
+    padding: 10px;
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#divItens:hover{
+
+    background-color: rgb(94, 95, 143,0.7);
+
+}
+#divGeral{
+    display: flex;
+
+}
+#divPDesc{
+
+    width: 40vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    position: absolute;
+   
+}
+#divDesc{
+    margin-top: 5vh;
+    background-color: rgb(94, 95, 143,0.7);
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    width: 40vw;
+    padding: 1px;
+   
+}
+#divDesc:hover{
+ 
+    background-color: rgb(94, 95, 143,1);
+
+   
+}
+
+#divIev{
+    margin-top: 5vh;
+    background-color: rgb(94, 95, 143,0.7);
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 1px;
+    
+    
+}
+#divIev:hover{
+
+    background-color: rgb(94, 95, 143,1);
+
+    
+}
+#divINec{
+    margin-top: 5vh;
+    background-color: rgb(94, 95, 143,0.7);
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 1px;
+   
+}
+#divINec:hover{
+
+    background-color: rgb(94, 95, 143,1);
+
+   
+}
+button{
+    background-color: black;
+    width: 4vw;
+    height: 4vw;
+}
+#h1Itens{
+    font-size: 2em;
+    color: yellow;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
