@@ -1,4 +1,4 @@
-fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/item.json")
+fetch("https://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/item.json")
     .then(res => res.json())
     .then(json => {
 
@@ -6,14 +6,14 @@ fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/item.json")
         var lItens = document.getElementById("divItens")
         for (var i in json.data) {
 
-            lItens.innerHTML += `<button onclick="dados(${i})"><img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/${i}.png" alt="" width="50px"></button>`
+            lItens.innerHTML += `<button onclick="dados(${i})"><img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/${i}.png" alt="" width="50px"></button>`
         }
 
     })
 
 function dados(iten) {
 
-    fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/item.json")
+    fetch("https://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/item.json")
         .then(res => res.json())
         .then(json2 => {
             var lDivG = document.getElementById("divVazia")
@@ -59,14 +59,14 @@ function dados(iten) {
 
                     lUpCont.innerHTML += `                           
                     
-                    <button onclick="dados(${upItens[i]})"><img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/${upItens[i]}.png" alt="" width="50px"></button>`
+                    <button onclick="dados(${upItens[i]})"><img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/${upItens[i]}.png" alt="" width="50px"></button>`
                 }
 
             }
             lDesc.innerHTML = `                           
              <div id="divDesc">            
             <h3>${nome}</h3>
-            <img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/${iten}.png" alt="" width="50px">
+            <img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/${iten}.png" alt="" width="50px">
             <p>${desc}</p>
             </div>
             `
@@ -90,7 +90,7 @@ function dados(iten) {
                 ldownCont.innerHTML += `<h3>Itens necessários:</h3>`
                 for (i = 0; i < downItens.length; i++) {
 
-                    ldownCont.innerHTML += `<button onclick="dados(${downItens[i]})"><img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/${downItens[i]}.png" alt="" width="50px"></button>`
+                    ldownCont.innerHTML += `<button onclick="dados(${downItens[i]})"><img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/item/${downItens[i]}.png" alt="" width="50px"></button>`
                 }
 
             }

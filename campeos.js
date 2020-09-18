@@ -18,7 +18,7 @@ var sMpRegenL = ""
 var sCritL = ""
 var sAtaqL = ""
 var sAtaqSpeedL = ""
-fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion.json")
+fetch("https://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion.json")
     .then(res => res.json())
     .then(json => {
 
@@ -63,7 +63,7 @@ fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion.json")
             </div>`
 
 
-            fetch(`http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion/${valueSelectcamp}.json`)
+            fetch(`https://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion/${valueSelectcamp}.json`)
                 .then(res => res.json())
                 .then(json2 => {
                     for (var i in json2.data) {
@@ -280,19 +280,19 @@ fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion.json")
                        
                         </div>
                         <div >
-                        <button id="spellP"><img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/passive/${pImg}" alt=""></butoon>  
+                        <button id="spellP"><img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/passive/${pImg}" alt=""></butoon>  
                         </div>
                         <div>
-                        <button id="spell0"><img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/spell/${habImg[0]}" alt=""></butoon> 
+                        <button id="spell0"><img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/spell/${habImg[0]}" alt=""></butoon> 
                         </div>
                         <div>
-                        <button id="spell1"><img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/spell/${habImg[1]}" alt=""></butoon> 
+                        <button id="spell1"><img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/spell/${habImg[1]}" alt=""></butoon> 
                         </div>
                         <div>
-                        <button id="spell2"><img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/spell/${habImg[2]}" alt=""></butoon> 
+                        <button id="spell2"><img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/spell/${habImg[2]}" alt=""></butoon> 
                         </div>
                         <div>
-                        <button id="spell3"><img src="http://ddragon.leagueoflegends.com/cdn/10.19.1/img/spell/${habImg[3]}" alt=""></butoon> 
+                        <button id="spell3"><img src="https://ddragon.leagueoflegends.com/cdn/10.19.1/img/spell/${habImg[3]}" alt=""></butoon> 
                         </div>
                         </div>  
                         <div id="divSDesc">
@@ -391,7 +391,7 @@ fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion.json")
                         <button class="btnLados" id="sRight">→</button>
                         </div>
                         <div id="divImgSkin">
-                        <img id="imgSkin" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[0]}.jpg" alt="" width="80%">
+                        <img id="imgSkin" src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[0]}.jpg" alt="" width="80%">
                         </div>
                       </div>`
                         var cont = 0
@@ -401,12 +401,12 @@ fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion.json")
                             if (cont == 0) {
                                 cont = maxCont - 1
                                 var lImgSkin = document.getElementById("divImgSkin")
-                                lImgSkin.innerHTML = `<img id="imgSkin" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[cont]}.jpg" alt="" width="80%">`
+                                lImgSkin.innerHTML = `<img id="imgSkin" src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[cont]}.jpg" alt="" width="80%">`
                             } else {
                                 if (cont > 0) {
                                     cont--
                                     var lImgSkin = document.getElementById("divImgSkin")
-                                    lImgSkin.innerHTML = `<img id="imgSkin" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[cont]}.jpg" alt="" width="80%">`
+                                    lImgSkin.innerHTML = `<img id="imgSkin" src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[cont]}.jpg" alt="" width="80%">`
 
                                 }
                             }
@@ -415,11 +415,11 @@ fetch("http://ddragon.leagueoflegends.com/cdn/10.19.1/data/pt_BR/champion.json")
                             if(cont==(maxCont-1)){
                                 cont=0
                                 var lImgSkin = document.getElementById("divImgSkin")
-                                lImgSkin.innerHTML = `<img id="imgSkin" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[cont]}.jpg" alt="" width="80%">`
+                                lImgSkin.innerHTML = `<img id="imgSkin" src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[cont]}.jpg" alt="" width="80%">`
                             }else{
                                 cont++
                                 var lImgSkin = document.getElementById("divImgSkin")
-                                lImgSkin.innerHTML = `<img id="imgSkin" src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[cont]}.jpg" alt="" width="80%">`
+                                lImgSkin.innerHTML = `<img id="imgSkin" src="https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${nome}_${cdSkins[cont]}.jpg" alt="" width="80%">`
                             }
                         })
 
